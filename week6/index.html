@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Week6 Lab</title>
+    <link href="week6.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="jQuery-1.7.min.js"></script>
+    <script type="text/javascript">
+    
+    	$ (function() {
+			$('#fade').on('click', function() {
+         		$('#box').fadeOut(3000);
+			});
+			$('#slidedown').on('click', function() {
+				$('#box').slideDown(3000);
+			});
+			$('#slideup').on('click', function() {
+				$('#box').slideUp(3000);
+			});
+			
+		});
+	
+	</script>
+</head>
+
+<body>
+<div id="box"></div>
+<li><a href="#" id="fade">fade</a></li>
+<li><a href="#" id="slidedown">slide down</a></li>
+<li><a href="#" id="slideup">slide up</a></li>
+</body>
+</html>
