@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Studio Limitless Photography</title>
+<link href="../StudioLimitless/style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="../StudioLimitless/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../StudioLimitless/jquery.poptrox-1.0.js"></script>
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Studio limitless photography</a></h1>
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index.html">Homepage</a></li>
+			<li><a href="gallery.html">Photo Gallery</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+
+
+		<div id="poptrox"> 
+<ul id="gallery">
+				<li class="nopad"><a href="../StudioLimitless/images/1bokeh.jpg"><img src="../StudioLimitless/images/1bokeh.jpg" width="230" height="150" alt="" title="Fusce ultrices fringilla metus" /></a></li>
+				<li><a href="../StudioLimitless/images/bokehheart copy.jpg"><img src="../StudioLimitless/images/bokehheart copy.jpg" width="230" height="150" alt="" title="Praesent scelerisque scelerisque erat" /></a></li>
+				<li><a href="../StudioLimitless/images/JazmineIntheFields copy.jpg"><img src="../StudioLimitless/images/JazmineIntheFields copy.jpg" width="230" height="150" alt="" title="Integer sit amet pede vel arcu aliquet pretium" 			/></a></li>
+				<li class="nopad"><a href="../StudioLimitless/images/JEN3.jpg"><img src="../StudioLimitless/images/JEN3.jpg" width="230" height="150" alt="" title="Phasellus nec erat sit amet nibh pellentesque congue" /></a></li>
+				<li><a href="../StudioLimitless/images/lantern.jpg"><img src="../StudioLimitless/images/lantern.jpg"width="230" height="150" alt="" title="Pellentesque quis elit non lectus gravida blandit" /></a></li>
+				<li><a href="../StudioLimitless/images/lilypad copy.jpg"><img src="../StudioLimitless/images/lilypad copy.jpg" width="230" height="150" alt="" title="Cras vitae metus aliquam risus pellentesque pharetra" /></a></li>
+                <li><a href="../StudioLimitless/images/clocktower.jpg"><img src="../StudioLimitless/images/clocktower.jpg" width="230" height="150" alt="" title="Cras vitae metus aliquam risus pellentesque pharetra" /></a></li>
+                <li><a href="../StudioLimitless/images/cody3.jpg"><img src="../StudioLimitless/images/cody3.jpg" width="230" height="150" alt="" title="Cras vitae metus aliquam risus pellentesque pharetra" /></a></li>
+                <li><a href="../StudioLimitless/images/flowergardenwonderland copy.jpg"><img src="../StudioLimitless/images/flowergardenwonderland copy.jpg" width="230" height="150" alt="" title="Cras vitae metus aliquam risus pellentesque pharetra" /></a></li>
+			</ul>
+			<img src="../StudioLimitless/images/logo.jpg" alt="logo" width="258" height="53" align="absmiddle" /><br class="clear" />
+<script type="text/javascript">
+				$('#gallery').poptrox({
+					popupCloserBackgroundColor: '#E55311',
+					popupPadding: 20,
+					windowMargin: 100
+				});
+			</script> 
+            
+            
+            
+<script type="text/javascript">
+// Author: ricocheting.com
+// Description: slideshow that allows visitors to flip through a series of images on your website
+
+var x=0;
+
+function rotate(num){
+fs=document.ff.slide;
+x=num%fs.length;
+if(x<0) x=fs.length-1;
+document.images.show.src=fs.options[x].value;
+fs.selectedIndex=x;}
+
+function auto() {
+if(document.ff.fa.value == "Stop"){
+rotate(++x);setTimeout("auto()", 3000);}}
+</script>
+</div>
+
+
+<div id="footer">
+	<p>&copy;studiolimitlessphotography.com. All rights reserved.</p>
+</div>
+
+
+
+</body>
+</html>
